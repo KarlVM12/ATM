@@ -90,11 +90,15 @@ public class Money
      */
     public String toString()
     {
-        String result = "$" + this.getDollars() + "."; 
+		String result = "$";
+        if (this.getDollars() == 0 && this.getCents() < 0)
+            result += "-";
+
+        result += this.getDollars() + "."; 
         
-        if (this.getCents() < 10 && this.getCents() >= 0) {
+        if ((this.getCents() < 10 && this.getCents() > -10))
             result += "0";
-        }
+        
         
         result += Math.abs(this.getCents());
         return result;
