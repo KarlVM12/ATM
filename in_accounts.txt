@@ -1,0 +1,5 @@
+Karl Muller,4506,999,89,r
+Yoshikage Kira,1890,70,84,c,25,0
+Bob Thompson,6713,120,40,c,50,0
+Joseph Joestar,2011,0,9,r
+Kyle Maclachlan,1990,50,1,c,34,99
