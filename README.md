@@ -3,7 +3,7 @@ A working ATM based on classes of banks, accounts, and money using JOptionPane
 
 ### How To Use
 Running the ATM.class will bring up a dialogue box using JOptionPane that asks for user input.
-There are only certain valid inputs you can enter based on the in_accounts.txt
+There are only certain valid inputs you can enter based on the in_accounts.txt file.
 There are five accounts in in_accounts.txt that are read into the program and assigned to a bank class.
 
 ### Transactions
