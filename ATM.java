@@ -245,7 +245,7 @@ public class ATM
          if (money.equals(""))
             throw new CancelledTransactionException("Transaction Cancelled");
 
-         // the entered amount is parsed into a double and multiplied by 100 to get an amount in cents
+         // the entered amount is parsed into a float and multiplied by 100 to get an amount in cents
          float cents = Float.parseFloat(money) * 100;
 
          // if the amount in cents is less than or equal to zero, no transaction will occur and therefore and exception is thrown
@@ -306,7 +306,7 @@ public class ATM
          if (money.equals(""))
             throw new CancelledTransactionException("Transaction Cancelled");
 
-         // the entered amount is parsed into a double and multiplied by 100 to get an amount in cents
+         // the entered amount is parsed into a float and multiplied by 100 to get an amount in cents
          float cents = Float.parseFloat(money) * 100;
 
          // if the amount in cents is less than or equal to zero, no transaction will occur and therefore and exception is thrown
